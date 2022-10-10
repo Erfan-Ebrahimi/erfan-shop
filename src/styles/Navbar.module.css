@@ -1,0 +1,80 @@
+/* be Navbar position fixed midahim vali bayad dar component hayi mesl Store yek margin-top bedahim ta zir navbar nyoftand */
+.mainContainer {
+    background:#eee2dc;
+    margin: 0 0 100px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0px 5px 24px rgba(149, 157, 165, 0.4);
+    border-bottom: 10px solid;
+    border-image-slice: 1;
+    border-width: 2px;
+    border-image-source:linear-gradient(99deg, rgba(255,0,0,1) 31%, rgba(31,1,1,1) 100%);
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    padding: 15px 180px;
+  }
+  
+  .productLink {
+    text-decoration: none;
+    color: #51041d;
+    font-weight: bold; 
+    border-radius: 2px;
+    padding: 0 1px;
+    transition: all 0.2s ease;
+    border-bottom: 1px solid #51041d;
+    
+  }
+  
+  .productLink:hover {
+    color: #f11885;
+    border-bottom-color: #f11885;
+  }
+  
+  .iconContainer {
+    position: relative;
+  }
+  
+  .iconContainer img {
+    width: 40px;
+    color: #1a73e8;
+  }
+  
+  .iconContainer span {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #4e150b;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    font-size: 0.75rem;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  @media (max-width: 1200px) {
+    .container {
+      padding: 15px 80px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      padding: 15px 40px;
+    }
+  }
+  
+  @media (max-width: 555px) {
+    .container {
+      padding: 15px 20px;
+    }
+  }
+  
